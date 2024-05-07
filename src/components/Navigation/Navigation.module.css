@@ -1,0 +1,26 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #390240;
+    color: #fff;
+    padding: 1rem;
+    font-family: Arial, sans-serif; 
+    border-radius: 5px;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  
+  .navLink:hover {
+    background-color: #BD2CBF;
+  }
+  
+  .active {
+    background-color: #BD2CBF;
+  }
+  

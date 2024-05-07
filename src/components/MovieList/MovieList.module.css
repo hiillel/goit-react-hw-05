@@ -1,0 +1,15 @@
+.list {
+	list-style: none;
+	padding: 8px;
+}
+
+.itemLink {
+	text-decoration: none;
+	font-size: 20px;
+	color: #260116;
+    font-family: Arial, sans-serif; 
+}
+
+.itemLink:hover {
+    color: #BF2489;
+}

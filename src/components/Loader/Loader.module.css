@@ -1,0 +1,14 @@
+/* Loader.module.css */
+.blocksWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Чтобы загрузчик был посередине экрана */
+  }
+  
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  

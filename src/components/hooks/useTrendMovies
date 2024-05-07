@@ -1,0 +1,21 @@
+import { useEffect } from "react";
+import { useState } from "react";
+import { fetchTrendMovies } from "../../services/apiTrendMovies.js";
+
+export const useTrendMovies = () => {
+	const [films, setfilms] = useState([]);
+
+	useEffect(() => {
+		async function fetchMovies() {
+			try {
+				const response = await fetchTrendMovies();
+				setfilms(response.results);
+			} catch (error) {
+				console.log(error);
+			}
+		}
+		fetchMovies();
+	}, []);
+
+	return films;
+};
